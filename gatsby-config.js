@@ -38,8 +38,8 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: spaceId,
-        accessToken: accessToken,
+        spaceId,
+        accessToken,
       },
     },
     {
