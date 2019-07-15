@@ -9,6 +9,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
+import blurb from "../images/blurbs.svg";
+
 import Header from "./header"
 import "./layout.css"
 
@@ -24,7 +26,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div className="backgroundContainer" style={{backgroundImage: `url(${blurb})`}}>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
@@ -36,12 +38,12 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Built by
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          Corey Lantz
         </footer>
       </div>
-    </>
+    </div>
   )
 }
 

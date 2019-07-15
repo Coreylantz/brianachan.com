@@ -620,3 +620,8 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.backgroundContainer {
+  background-attachment: fixed;
+  background-size: initial;
+}
