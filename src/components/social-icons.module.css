@@ -1,5 +1,6 @@
 .iconContainer {
   display: flex;
+  padding: 30px 0;
 }
 
 .iconContainer svg {
