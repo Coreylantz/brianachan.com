@@ -12,10 +12,10 @@ const SocialIcons = () => {
       <a href="https://twitter.com/eightbreeze" className={[SocialStyles.hexagon, SocialStyles.teal].join(' ')} target="_blank" rel="noopener noreferrer">
         <TwitterIcon />
       </a>
-      <a href="https://twitter.com/eightbreeze" className={[SocialStyles.hexagon, SocialStyles.pink].join(' ')} target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/briana-chan-30832529/" className={[SocialStyles.hexagon, SocialStyles.pink].join(' ')} target="_blank" rel="noopener noreferrer">
         <LinkedinIcon />
       </a>
-      <a href="https://twitter.com/eightbreeze" className={[SocialStyles.hexagon, SocialStyles.yellow].join(' ')} target="_blank" rel="noopener noreferrer">
+      <a href="https://www.instagram.com/eightbreeze/" className={[SocialStyles.hexagon, SocialStyles.yellow].join(' ')} target="_blank" rel="noopener noreferrer">
         <InstagramIcon />
       </a>
     </div>
