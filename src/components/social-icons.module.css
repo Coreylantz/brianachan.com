@@ -1,0 +1,90 @@
+.iconContainer {
+  display: flex;
+}
+
+.iconContainer svg {
+  height: 50px;
+  width: 50px;
+  fill: white;
+}
+
+.hexagon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100px; 
+  width: 57.74px;
+  margin: 0 30px;
+
+  transition: 0.5s ease-out;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+}
+
+.hexagon:before {
+  left: 100%;
+  border-left: 28.87px solid transparent;
+}
+
+.hexagon:after {
+  right: 100%;
+  width: 0;
+  border-right: 28.87px solid transparent;
+}
+
+.hexagon:nth-child(2) {
+  top: 50px;
+  left: -30px;
+}
+
+.hexagon:nth-child(3) {
+  left: -60px;
+}
+
+.teal {
+  background-color: #00d2a1;
+}
+
+.teal:before {
+  border-left: 28.87px solid #00d2a1;
+}
+.teal:after {
+  border-right: 28.87px solid #00d2a1;
+}
+
+.pink {
+  background-color: #F90066;
+}
+
+.pink:before {
+  border-left: 28.87px solid #F90066;
+}
+.pink:after {
+  border-right: 28.87px solid #F90066;
+}
+
+.yellow {
+  background-color: #ffb100;
+}
+
+.yellow:before {
+  border-left: 28.87px solid #ffb100;
+}
+.yellow:after {
+  border-right: 28.87px solid #ffb100;
+}
+/* 
+Pink - F90066
+Black - 232327
+Blue - 285999
+Teal - 00d2a1
+Neon Yellow - ffe700
+Deep Yellow - ffb100 */

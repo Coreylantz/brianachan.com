@@ -13,6 +13,7 @@ import blurb from "../images/blurbs.svg";
 
 import Header from "./header"
 import "./layout.css"
+import "./fonts.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`

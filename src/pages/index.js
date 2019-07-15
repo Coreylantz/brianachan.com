@@ -4,8 +4,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Gallery from "../components/gallery"
 
+import SocialIcons from "../components/social-icons";
+
 const IndexPage = ({ data }) => {
-  console.log(data);
   const homeData = data.contentfulHome;
 
   return (
@@ -13,6 +14,7 @@ const IndexPage = ({ data }) => {
       <SEO title="Home" />
       <h2>{ homeData.aboutHeading }</h2>
       <p>{ homeData.about.about }</p>
+      <SocialIcons />
       <Gallery images={data.contentfulGallery.gallery} />
     </Layout> 
   )
