@@ -7,12 +7,12 @@ const GalleryImage = (props) => {
   const imageMobile =   image.imageMobile.file.url;
   return (
     <picture className={props.className}>
-      <source srcSet={imageDesktop} media="(min-width: 1200px)" />
+      <source srcSet={imageTablet} media="(min-width: 1200px)" />
       <source srcSet={imageTablet} media="(min-width: 800px)" />
       <img 
       style={{margin:`0`}}
       alt={image.title}  
-      src={imageMobile} />
+      src={imageTablet} />
     </picture>
   )
 }
