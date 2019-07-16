@@ -26,8 +26,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Briana Chan Portfolio`,
+        short_name: `Briana Chan`,
         start_url: `/`,
         background_color: `#00d2a1`,
         theme_color: `#00d2a1`,
