@@ -43,11 +43,11 @@
 
 .hexagon:nth-child(2) {
   top: 50px;
-  left: -30px;
+  left: -20px;
 }
 
 .hexagon:nth-child(3) {
-  left: -60px;
+  left: -40px;
 }
 
 .teal {
